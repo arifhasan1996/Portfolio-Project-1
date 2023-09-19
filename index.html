@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website design with pure HTML & CSS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!--===================================================
+        Header section stacture 
+    ======================================================-->
+    <header id="home" class="home">
+        <nav class="navbar mainNavBar">
+            <div class="brand"><a href="index.html"><img src="images/header-logo.png" alt=""></a></div>
+            <ul id="navMenu" class="navMenu">
+                <li class="navItem active"><a href="#" class="navLink">About</a></li>
+                <li class="navItem active"><a href="#" class="navLink">Project</a></li>
+                <li class="navItem active"><a href="#" class="navLink">Testimonials</a></li>
+                <li class="navItem active"><a href="#" class="navLink">Services</a></li>
+                <li class="navItem active"><a href="#" class="navLink">News</a></li>
+                <li class="navItem active"><a href="#" class="navLink">Team</a></li>
+                <li class="navItem active"><a href="#" class="navLink">Blog</a></li>
+                <li class="navItem active"><a href="#" class="navLink">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- Header banner stacture -->
+        <section class="header">
+            <div class="hero-area">
+                <h1>Clean<span></span>slick <span></span> pixel Perfect</h1>
+                <div class="margin-btm-20"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente maiores placeat earum hic eligendi
+                    incidunt?</p>
+                <div class="btn-div">
+                    <button class="btn btn-white">Learn More</button>
+                    <button class="btn btn-yellow">Download</button>
+                </div>
+            </div>
+        </section>
+
+    </header>
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quo beatae quasi quibusdam facilis
+                    laudantium accusamus aliquid animi consequuntur, culpa fugit, asperiores facere, doloremque placeat
+                    libero commodi. In, aspernatur animi.</p>
+            </div>
+            <div class="skills-rang-div">
+                <div class="skills">
+                    <div class="typography col-3">
+                        <div class="rangHand" id="rangHand"></div>
+                        <span><i class="fa-solid fa-font"></i> typography</span>
+                    </div>
+                    <div class="design col-3">
+                        <div class="rangHand" id="rangHand"></div><span><i class="fa-solid fa-pen"></i> Design</span>
+                    </div>
+                    <div class="devlopment col-3">
+                        <div class="rangHand" id="rangHand"></div>
+                        <span><i class="fa-solid fa-code"></i> Devlopment</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="project" class="project section-padding">
+        <div class="section-header">
+            <h2>Project</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, quo.</p>
+        </div>
+        <div class="project-container">
+            <div class="project-inner">
+                <div class="project-img">
+                    <img src="images/front-page/front-page-project-1.jpg" alt="">
+                </div>
+                <div class="project-img">
+                    <img src="images/front-page/front-page-project-2.jpg" alt="">
+                </div>
+                <div class="project-img">
+                    <img src="images/front-page/front-page-project-3.jpg" alt="">
+                </div>
+                <div class="project-img">
+                    <img src="images/front-page/front-page-project-4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonial" class="testimonial section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimonial</h2>
+            </div>
+            <div class="testiItems sliders">
+                <div class="slider-item">
+                    <div class="userProfile">
+                        <img src="images/front-page/front-page-testimonial-1.jpg" alt="">
+                    </div>
+                    <div class="userComment">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iste natus magni eos nobis
+                            ipsum laudantium! Velit rerum veniam, et officiis, ullam modi porro labore, illo optio
+                            fugiat vitae explicabo.</p>
+                        <span class="downArrow">
+
+                        </span>
+                    </div>
+                    <div class="userName">
+                        <h2>The Hulk</h2>
+                    </div>
+                </div>
+                <!-- <div class="slider-item">
+                    <div class="userProfile">
+                        <img src="images/front-page/front-page-testimonial-2.jpg" alt="">
+                    </div>
+                    <div class="userComment">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iste natus magni eos nobis ipsum laudantium! Velit rerum veniam, et officiis, ullam modi porro labore, illo optio fugiat vitae explicabo.</p>
+                    </div>
+                    <div class="userName">
+                        <h2>Captain America</h2>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="userProfile">
+                        <img src="images/front-page/front-page-testimonial-3.jpg" alt="">
+                    </div>
+                    <div class="userComment">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iste natus magni eos nobis ipsum laudantium! Velit rerum veniam, et officiis, ullam modi porro labore, illo optio fugiat vitae explicabo.</p>
+                    </div>
+                    <div class="userName">
+                        <h2>Spider Man</h2>
+                    </div>
+                </div>
+                <div class="slider-item">
+                    <div class="userProfile">
+                        <img src="images/front-page/front-page-testimonial-4.jpg" alt="">
+                    </div>
+                    <div class="userComment">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iste natus magni eos nobis ipsum laudantium! Velit rerum veniam, et officiis, ullam modi porro labore, illo optio fugiat vitae explicabo.</p>
+                    </div>
+                    <div class="userName">
+                        <h2>Harry Potter</h2>
+                    </div>
+                </div> -->
+            </div>
+            <div class="sliderIndicators">
+                <button class="indiBtn active"></button>
+                <button class="indiBtn"></button>
+                <button class="indiBtn"></button>
+                <button class="indiBtn"></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel libero omnis maxime culpa ut incidunt
+                    laborum ipsum sint ducimus at.</p>
+            </div>
+
+            <div class="mainServices">
+                <div class="serviceItem webdesign">
+                    <div class="serviceTitle">
+                        <i class="fa-solid fa-pen"></i>
+                        <h4>Webdesign</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minima soluta itaque hic
+                        consectetur, quisquam eos facilis corrupti quasi! Libero?</p>
+                </div>
+                <div class="serviceItem devlopment">
+                    <div class="serviceTitle">
+                        <i class="fa-solid fa-code"></i>
+                        <h4>Web Devlopment</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minima soluta itaque hic
+                        consectetur, quisquam eos facilis corrupti quasi! Libero?</p>
+                </div>
+                <div class="serviceItem seo">
+                    <div class="serviceTitle">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <h4>Seo analisys</h4>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa minima soluta itaque hic
+                        consectetur, quisquam eos facilis corrupti quasi! Libero?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Services</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel libero omnis maxime culpa ut incidunt
+                    laborum ipsum sint ducimus at.</p>
+                <button class="btn btn-yellow">Download</button>
+            </div>
+            <div class="blogRow">
+                <div class="blogItem">
+                    <img src="images/front-page/front-page-latest-news-1.jpg" alt="">
+                    <div class="blog-btm">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt esse labore
+                            libero, quam aspernatur.</p>
+                        <div class="blogBtn">
+                            <a href="#"><i class="fa-solid fa-circle-chevron-right"></i>Ream more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blogItem">
+                    <img src="images/front-page/front-page-latest-news-2.jpg" alt="">
+                    <div class="blog-btm">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt esse labore
+                            libero, quam aspernatur.</p>
+                        <div class="blogBtn">
+                            <a href="#"><i class="fa-solid fa-circle-chevron-right"></i>Ream more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="blogItem">
+                    <img src="images/front-page/front-page-latest-news-3.jpg" alt="">
+                    <div class="blog-btm">
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi deserunt esse labore
+                            libero, quam aspernatur.</p>
+                        <div class="blogBtn">
+                            <a href="#"><i class="fa-solid fa-circle-chevron-right"></i>Ream more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="workCounting">
+            <div class="counting">
+                <div class="count">
+                    <h4 id="projectCount">260</h4>
+                    <p>Project</p>
+                </div>
+                <div class="count">
+                    <h4 id="clientCount">120</h4>
+                    <p>Clients</p>
+                </div>
+                <div class="count">
+                    <h4 id="coffesCount">314</h4>
+                    <p>Coffes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Team</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel libero omnis maxime culpa ut incidunt
+                    laborum ipsum sint ducimus at.</p>
+            </div>
+            <div class="mainTeam">
+                <div class="singel-team">
+                    <div class="flex">
+                        <div class="team-profile">
+                            <img src="images/front-page/front-page-team-1.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <h4>Mark Lawrance</h4>
+                            <h6 class="clr-orange">Devloper</h6>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="singel-team">
+                    <div class="flex">
+                        <div class="team-profile">
+                            <img src="images/front-page/front-page-team-2.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <h4>Jane Stenton</h4>
+                            <h6 class="clr-yellow">Seo analisys</h6>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="singel-team">
+                    <div class="flex">
+                        <div class="team-profile">
+                            <img src="images/front-page/front-page-team-3.jpg" alt="">
+                        </div>
+                        <div class="team-text">
+                            <h4>John Smith</h4>
+                            <h6 class="clr-purple">Devloper</h6>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding">
+        <div class="container">
+            <div class="section-header">
+                <h2>Team</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+
+            <div class="sub-contact">
+                <div class="contact-col">
+                    <h4>adress</h4>
+                    <p>Street, 210 Beber House,<br> London UK</p>
+                </div>
+                <div class="contact-col">
+                    <h4>Customer Support</h4>
+                    <p>Street, 210 Beber House, <br> London UK</p>
+                </div>
+                <div class="contact-col">
+                   <i class="fa-brands fa-twitter"></i>
+                   <i class="fa-brands fa-facebook"></i>
+                   <i class="fa-brands fa-linkedin"></i>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="inputs-div">
+                    <input type="text" placeholder="Name" id="name">
+                    <input type="email" placeholder="Email" id="email">
+                    <input type="text" placeholder="Subject" id="subject">
+                </div>
+                <div class="text-area-div">
+                    <textarea id="contactTextArea" rows="5" placeholder="Messeges"></textarea>
+                </div>
+                <div class="send-btn">
+                    <button type="submit" class="btn btn-white">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer section-padding">
+        <div class="container">
+            <div class="main-footer">
+                <div class="singel-footer">
+                    <ul class="footer-ul">
+                        <h4>Products</h4>
+                        <li><a href="#">Our Work</a></li>
+                        <li><a href="#">Club</a></li>
+                        <li><a href="#">News </a></li>
+                        <li><a href="#">Announcement</a></li>
+                    </ul>
+                </div>
+                <div class="singel-footer">
+                    <ul>
+                        <h4>Information</h4>
+                        <li><a href="#">Our Work</a></li>
+                        <li><a href="#">Club</a></li>
+                        <li><a href="#">News </a></li>
+                        <li><a href="#">Announcement</a></li>
+                    </ul>
+                </div>
+                <div class="singel-footer">
+                    <ul>
+                        <h4>Support</h4>
+                        <li><a href="#">Our Work</a></li>
+                        <li><a href="#">Club</a></li>
+                        <li><a href="#">News </a></li>
+                        <li><a href="#">Announcement</a></li>
+                    </ul>
+                </div>
+                <div class="singel-footer branding">
+                    <img src="images/footer-logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js">
+        const projectCount = "projectCount";
+        const clientCount = "clientCount";
+        const coffesCount = "coffesCount";
+
+
+    </script>
+</body>
+
+</html>
